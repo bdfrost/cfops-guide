@@ -53,7 +53,7 @@ When working on the deployment you should check out all three folder to your loc
 
 ## Base
 
-The base contians scripts and configuration files for the products which can be deployed on an environment. 
+The *base* contains scripts and configuration files for the products which can be deployed on an environment. 
 The files are grouped by product in their respective folder:
 
 ```txt
