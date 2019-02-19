@@ -14,3 +14,23 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+#footer {
+    background-color: #D7E2E6;
+    
+}
+
+#footer, 
+#footer a,
+#footer h5 {
+    color: #0A5064;
+}
+#footer a:hover {
+    color: #FF004E;
+}
+#footer .copyright {
+    color: #7E9098;
+}
+#footer .fbOpenSource {
+    opacity: 1;
+}

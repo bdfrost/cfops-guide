@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'getting-started', label: 'Docs'},
-    {page: 'changelog', label: 'Changelog'},
+    {doc: 'changelog', label: 'Changelog'},
     // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
   ],
@@ -93,7 +93,7 @@ const siteConfig = {
   twitterImage: 'img/mimacom_logo.png',
 
   // Show documentation's last contributor's name.
-  enableUpdateBy: true,
+  // enableUpdateBy: true,
 
   // Show documentation's last update time.
   enableUpdateTime: true,
