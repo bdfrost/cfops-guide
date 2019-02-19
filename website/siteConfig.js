@@ -101,6 +101,10 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+
+  editUrl: 'https://github.com/mimacom/cloud-automation/tree/master/docs/',
+  gaTrackingId: 'UA-3912368-10',
+  gaGtag: true,
 };
 
 module.exports = siteConfig;

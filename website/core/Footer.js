@@ -27,10 +27,10 @@ class Footer extends React.Component {
         <section className="sitemap">
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('getting-started.html', this.props.language)}>
+            <a href={this.docUrl('getting-started')}>
               Getting Started
             </a>
-            <a href={this.docUrl('concourse-deploying-concourse.html', this.props.language)}>
+            <a href={this.docUrl('concourse-deploying-concourse')}>
               Concourse
             </a>
           </div>
@@ -45,9 +45,14 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://blog.mimacom.com/tag/cloud-foundry">Blog</a>
-            <a href="https://github.com/mimacom">GitHub</a>
-            <a href="https://gitlab.com/mimacom/cloud">GitLab</a>
+            <a href="https://blog.mimacom.com/tag/cloud-foundry" target="_blank">Blog</a>
+            <a href="https://github.com/mimacom" target="_blank">GitHub</a>
+            <a href="https://gitlab.com/mimacom/cloud" target="_blank">GitLab</a>
+          </div>
+          <div>
+            <h5>Imprint &amp; Privacy</h5>
+            <a href="https://www.mimacom.com/en/imprint/" target="_blank">Imprint</a>
+            <a href="https://www.mimacom.com/en/privacy-policy/" target="_blank">Privacy</a>
           </div>
         </section>
 
