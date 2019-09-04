@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Cloud Automation', // Title for your website.
-  tagline: 'Automating Cloud Foundry',
+  title: 'The Cloud Foundry Operators Guide', // Title for your website.
+  tagline: 'Taking Open Source Cloud Foundry to Production',
   url: 'https://cloud-automation.mimacom.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:

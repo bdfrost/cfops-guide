@@ -12,7 +12,7 @@ We cover deploying the BOSH director, Concourse as automation tool, Open Source 
 > Check back soon to discover more contents or have a [look at the changelog](changelog.md) to discover what has changed recently.
 
 
-## Why Open Source Cloud Foundry?
+## 💡 Why Open Source Cloud Foundry?
 
 We have written this guide as reference documentation for several setups we use at customers to run productive environments.
 As we found that we were talking about the same concepts over and over again, it was clear that we were onto something that may also turn out to be useful for others.

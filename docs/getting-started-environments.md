@@ -79,7 +79,7 @@ Each of the above folders may contain the following subfolders:
 - `resources`: external resources, usually Git submodules. They are retrieved by the `git submodule update` command. By using git submodules, we can put external resources under version control, to know exactly which versions are being used.
 - `tools`: useful helper scripts that are related to the product but not essentially part of it.
 
-### Example: BOSH
+### 📝 Example: BOSH
 
 All environment-independent files related to the deployment of the BOSH director are located under the `bosh` folder in the *base* package:
 

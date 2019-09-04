@@ -2,6 +2,7 @@
   "docs": {
     "Cloud Automation": [
       "getting-started",
+      "getting-started-overview",
       "getting-started-environments",
       "getting-started-deploying",
       "changelog"

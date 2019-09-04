@@ -8,7 +8,8 @@ The following picture depicts an overview of the setup we describe here in this 
 
 TODO: add image here
 
-We will mainly focus on building two [environments](TODO link to environments section): an *automation environment* leveraging Concourse to automate operational aspects, and one (or several) *Cloud Foundry environments* that host the platform and serve the apps.
+
+We will mainly focus on building two [environments](getting-started-environments.md): an *automation environment* leveraging Concourse to automate operational aspects, and one (or several) *Cloud Foundry environments* that host the platform and serve the apps.
 
 Each environment consists of a BOSH director, which is the deployment orchestration tool used to spin up the whole environment.
 While we can manually use BOSH to deploy things we want the BOSH deployments to be automatically run from our automation environment.
