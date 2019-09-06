@@ -7,6 +7,10 @@
       "getting-started-deploying",
       "changelog"
     ],
+    "BOSH Director": [
+      "bosh-infrastructure-preparation",
+      "bosh-deployment"
+    ],
     "Concourse": [
       "concourse-deploying-concourse"
     ],
