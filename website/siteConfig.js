@@ -23,14 +23,14 @@ const users = [
 const siteConfig = {
   title: 'The Cloud Foundry Operators Guide', // Title for your website.
   tagline: 'Taking Open Source Cloud Foundry to Production',
-  url: 'https://cloud-automation.mimacom.com', // Your website URL
+  url: 'https://cfops-guide.mimacom.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'cloud-automation',
+  projectName: 'cfops-guide',
   organizationName: 'mimacom',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -102,7 +102,7 @@ const siteConfig = {
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
 
-  editUrl: 'https://github.com/mimacom/cloud-automation/tree/master/docs/',
+  editUrl: 'https://github.com/mimacom/cfops-guide/tree/master/docs/',
   gaTrackingId: 'UA-3912368-10',
   gaGtag: true,
 };
