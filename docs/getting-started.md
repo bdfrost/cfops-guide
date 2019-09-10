@@ -29,6 +29,19 @@ Why would you want to run Open Source Cloud Foundry in the first place?
   There is no magic going on and you can verify that the platform is as secure as it claims to be.
 
 
+## 🎓 Why don't you provide an example working repository?
+
+We've thought about putting together a repository containing a working example.
+However, we don't see a lot value in doing so:
+
+- it's probably not going to work once you try it
+- it's probably not going to work with your specific setup
+- with a default AWS/GCP setup you wouldn't want to take it to production
+
+Instead, we'd like to focus on providing understandable and useful snippets that you can copy&paste into your project and then maintain yourself over time.
+Expect this guide to teach you how to approach the deployment in general, how to design the folder and script structure, best practices, and the mentality to do things on your own.
+
+
 ## 👋 Contributions Welcome!
 
  If you have questions or trouble understanding parts of the guide you're invited to raise an issue on [GitHub](https://github.com/mimacom/cloud-automation/issues/new).
