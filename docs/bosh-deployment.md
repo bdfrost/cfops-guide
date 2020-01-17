@@ -48,7 +48,7 @@ As the CI/CD server clones the repositories, it can also set the environment var
  Now we can setup a basic deployment script:
 
 ```
-# File: base/bosh/deploy-bosh.sh
+# File: base/bosh/deploy.sh
 # This script deploys a BOSH director
 
 OPS_RELEASE="${REPO_BASE}/bosh/resources/bosh-deployment"
@@ -91,7 +91,7 @@ To do that, we'll first create two reusable Concourse tasks.
 The first one actually deploys the BOSH director:
 
 ```
-# base/ci/tasks/bosh/deploy-bosh.yml
+# base/ci/tasks/bosh/deploy.yml
 ---
 platform: linux
 
@@ -116,7 +116,7 @@ params:
   REPO_STATE: 'repo-state'
 
 run:
-  path: repo-base/bosh/deploy-bosh.sh
+  path: repo-base/bosh/deploy.sh
 ```
 
 > Heads up: we provide a Docker image that contains the most important tools to automate Cloud Foundry.
